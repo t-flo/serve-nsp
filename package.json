@@ -1,0 +1,23 @@
+{
+  "name": "serve-nsp",
+  "version": "1.0.0",
+  "description": "Serve nsp files from command line for Awoo installer.",
+  "main": "./bin/serve-nsp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nsp",
+    "install"
+  ],
+  "author": "t-flo",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ip": "^1.1.5"
+  },
+  "bin": {
+    "serve-nsp": "./bin/serve-nsp.js"
+  },
+  "preferGlobal": true
+}
