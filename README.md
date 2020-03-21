@@ -1,2 +1,2 @@
 # serve-nsp
-SImple global module to serve nsp files over http for Awoo installers.
+Simple node.js global module to serve nsp files over http for Awoo installer.
