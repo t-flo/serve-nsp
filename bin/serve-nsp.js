@@ -18,4 +18,4 @@ app.get('/', (req, res) => {
     res.sendFile('./' + args[0], { root: process.cwd() });
 });
 
-app.listen(port, () => console.log(`Serving ${args[0]} on ${ip.address()}/${port}!`));
+app.listen(port, () => console.log(`Serving ${args[0]} on http://${ip.address()}:${port}`));
